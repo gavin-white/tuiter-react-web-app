@@ -1,0 +1,86 @@
+
+.wd-page-heading {
+  font-size: 20px;
+  padding-bottom: 1px;
+  margin-bottom: 0px;
+}
+
+.wd-bookmarks-top {
+  padding-bottom: 12px;
+  border-bottom-width: 1px;
+  border-bottom-color: gray;
+  border-bottom-style: solid;
+}
+
+.wd-bookmarks-username {
+  font-size: 13px;
+  color: gray;
+}
+
+.wd-bookmarks-top {
+  padding-bottom: 12px;
+}
+
+.wd-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  padding-top: 12px;
+}
+
+.wd-content {
+  max-width: 506px;
+  padding-bottom: 12px;
+}
+
+.wd-main-column {
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.wd-main-img {
+  width: 504px;
+  height: 264px;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  border-width: 1px 1px 1px 1px;
+  border-color: gray;
+  border-style: solid;
+}
+
+.wd-article-info {
+  padding: 0px 0px 12px 12px;
+  margin-top: -5px;
+  width: 492px;
+  border-width: 1px 1px 1px 1px;
+  border-color: gray;
+  border-style: solid;
+}
+
+.wd-article-title {
+  font-size: 15px;
+}
+
+.wd-article-preview {
+  color: gray;
+}
+
+.wd-icons {
+  padding-top: 12px;
+}
+
+.wd-icon {
+  width: 22%;
+  padding-right: 12px;
+  text-decoration: none;
+  color: gray;
+}
+
+.wd-icon-selected {
+  color: red;
+}
+
+.wd-bookmarked-tuit {
+  float: left;
+}
+

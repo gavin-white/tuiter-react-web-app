@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.wd-float-left {
+  float: left;
+}
+
+.wd-float-done {
+  clear: both;
+}
+
+.wd-username {
+  color: white;
+  font-size: 15px;
+}
+
+.wd-handle {
+  color: gray;
+  font-size: 15px;
+}
+
+.rounded-corners-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.rounded-corners-bottom {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

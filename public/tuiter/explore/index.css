@@ -1,90 +1,39 @@
-input#search-input {
-  background-color: darkgray;
-  color: white;
-  border: none;
-  height: 30px;
-  width: 85%;
-  padding-left: 16px;
-  margin-right: 12px;
-  margin-left: 16px;
+body {
+  background-color: white;
+  color: black;
 }
 
-a#gear {
-  color: rgb(29,161,242);
-  text-decoration: none;
-  font-size: large;
-  float: right;
-  padding-right: 16px
-}
-
-.wd-rounded-corners-all-around {
+.btn-primary.wd-override-bs {
+  width: 100%;
   border-radius: 50px;
 }
 
-ul#link-list {
-  padding: 0px 0px 30px;
+.form-control.wd-override-bs {
+  border-radius: 50px;
+  display: inline-block;
+  width: 90%;
 }
 
-.wd-link-bar {
-  float: left;
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 15px;
-  color: rgb(110, 118, 125);
+.wd-profile-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
 }
 
-.wd-link-bar-link {
-  padding: 16px;
-  font-size: 15px;
-  color: rgb(110, 118, 125);
+.wd-main-img {
+  width: 100%;
+  height: auto;
 }
 
-.wd-link-bar a {
-  text-decoration: none;
-  color: rgb(110, 118, 125);
-}
-
-a#first-link {
-  color: rgb(29,161,242);
-  border-width: 0px 0px 2px 0px;
-  border-style: solid;
-  border-bottom-color: rgb(29,161,242);
-}
-
-.wd-float-done {
-  clear: both;
-}
-
-.wd-tuit {
-  padding: 16px;
-  width: 95%;
-  border-width: 2px 1px 1px 2px;
-  border-style: solid;
-  border-color: rgb(47, 51, 54);
-}
-
-.wd-tuit-img {
-  height: 100px;
-}
-
-.wd-tuit-body {
-  margin: 1px;
-}
-
-.wd-extra-text {
-  font-size: 13px;
-  color: rgb(110, 118, 125);
+.wd-bottom-left {
+  bottom: 8px;
+  left: 16px;
+  color: white;
+  font-size: 30px;
 }
 
 .wd-tuit-image {
-  float: right;
-  height: 100px;
-  width: 100px;
+  width: 100%;
+  height: auto;
   border-radius: 10px;
-}
-
-.wd-username img {
-  height: 12px;
-  width: 12px;
-  border-radius: 50px;
 }

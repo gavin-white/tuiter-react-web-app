@@ -1,8 +1,3 @@
-body {
-  background-color: white;
-  color: black;
-}
-
 .btn-primary.wd-override-bs {
   width: 100%;
   border-radius: 50px;
@@ -11,7 +6,7 @@ body {
 .form-control.wd-override-bs {
   border-radius: 50px;
   display: inline-block;
-  width: 90%;
+  width: 80%;
 }
 
 .wd-profile-img {

@@ -1,6 +1,6 @@
 import Labs from "./labs";
-import HelloWorld from "./labs/a6/hello-world";
 import Tuiter from "./tuiter";
+import TuiterHome from "./tuiter/home";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 function App() {
@@ -10,10 +10,8 @@ function App() {
           <Routes>
             <Route index
                    element={<Labs/>}/>
-            <Route path="/hello"
-                   element={<HelloWorld/>}/>
-            <Route path="/tuiter"
-                   element={<Tuiter/>}/>
+            <Route path="/*" element={<Labs/>}/>
+            <Route path="/tuiter" element={<TuiterHome/>}/>
           </Routes>
         </div>
       </BrowserRouter>
